@@ -19,7 +19,7 @@ public class EmployeeController {
     }
 
     @PutMapping("/puttest/id/{id}")
-    public String gettingStartedWithPut(@PathVariable(value = "id", required = false) String id, @RequestParam("name") String name, @RequestParam("age") String age) {
+    public String gettingStartedWithPut(@PathVariable(value = "id", required = false) String id, @RequestParam(value = "name",required = false) String name, @RequestParam(value = "age", required = false) String age) {
         System.out.println("EmployeeController.gettingStartedWithPut");
         System.out.println("id = [" + id + "], name = [" + name + "], age = [" + age + "]");
 

@@ -28,7 +28,7 @@ public class EmployeeControllerTest {
     Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
     @InjectMocks
-    private EmployeeController employeeController;
+    private org.main.controller.EmployeeController employeeController;
     private MockMvc mockMvc;
 
     @Before
