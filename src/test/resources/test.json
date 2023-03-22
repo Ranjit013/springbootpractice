@@ -1,0 +1,8 @@
+{
+  "pets": [
+    {"id":1, "petName": "Blaze", "petType": "Canine", "age": 2},
+    {"id": 2, "petName": "Felicia", "petType": "Feline", "age": 1},
+    {"id": 2, "petName": "Bolt", "petType": "Canine", "age": 3}
+
+  ]
+}
